@@ -1,0 +1,7 @@
+
+GET http://localhost:4000/datas
+
+POST http://localhost:4000/datas
+Content-Type: application/json
+
+{ "name" : "sádsad"}
