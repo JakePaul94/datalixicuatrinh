@@ -1,7 +1,7 @@
 
-GET http://localhost:4000/datas
 
-POST http://localhost:4000/datas
+
+PUT http://localhost:4000/datas?path=2wadsadsad
 Content-Type: application/json
 
-{ "name" : "sádsad"}
+{ "is_open" : true}
