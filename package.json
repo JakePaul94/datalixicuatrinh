@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {},
   "scripts": {
     "start": "node index.js",
     "dstart": " nodemon index.js",
