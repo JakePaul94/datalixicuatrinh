@@ -58,6 +58,6 @@ mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
     console.log('Error connecting to database' + error);
   });
 
-app.listen(3001,()=>{
+app.listen(process.env.PORT||3001,()=>{
     console.log("Sever runninginport 3001")
 })
