@@ -5,13 +5,14 @@ import mongoose from 'mongoose';
 import logger from 'morgan';
 import router from './Routers.js'
 import { DataModel } from './Model.js';
+import cors from 'cors';
 
 // set up dependencies
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(logger('dev'));
-
+app.use(cors());
 
 app.get("/",(req,res)=>{
     res.send("sucess")
